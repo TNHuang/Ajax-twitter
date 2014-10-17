@@ -17,12 +17,14 @@
 </form>
 
 <ul>
-  <% @users.each do |user| %>
-    <li>
-      <%= link_to user.username, user_url(user) %>
-      <%= render "follows/form", user: user %>
-    </li>
-  <% end %>
+  <%# @users.each do |user| %>
+
+
+    <!-- <li> -->
+      <%#= link_to user.username, user_url(user) %>
+      <%#= render "follows/form", user: user %>
+    <!-- </li> -->
+  <%# end %>
 </ul>
 
 <script>
